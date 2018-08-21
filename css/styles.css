@@ -1,0 +1,98 @@
+body{
+    background-color: #F8EFF0;
+    font-family: Helvetica Neue, Regular;
+}
+.navbar{
+    background-color: #8CAAEB;
+}
+
+.img-logomarca{
+    width: 15%;
+}
+
+.navbar a{
+    color: #F8EFF0;
+}
+.navbar a:hover{
+    color: rgb(93, 112, 197);
+}
+
+
+.func{
+   
+    background-color:#FDFAFA;
+    border: 2px solid #7B98E5;
+    color: #7B98E5;
+    border-radius: 30px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height:150px;
+    width: 35%;
+}
+.func:hover{
+    text-decoration: none;
+    background-color: #C3EBD4;
+    color: #7B98E5;
+
+}
+.row{
+    padding-left: 23%;
+    padding-right: 26%;
+    height: 160px;
+}
+
+@media(max-width: 1198px){
+    .row{
+        padding-left: 20%;
+        padding-right: 22%;
+        height: 160px;
+    }
+    .func{
+   
+        background-color:#FDFAFA;
+        border: 2px solid #7B98E5;
+        color: #7B98E5;
+        border-radius: 30px;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        height:150px;
+        width: 35%;
+    }
+}
+@media(max-width: 990px){
+    .row{
+        padding-left: 11%;
+        padding-right: 10%;
+        height: 160px;
+    }
+    .func{
+        height: 150px;
+    }
+}
+@media(max-width: 766px){
+    .row{
+        padding-left: 0%;
+        padding-right: 0%;
+        flex-direction: column;
+    }
+    .func{
+        height: 150px;
+    }
+}
+
+@media(max-width: 486px){
+    .row{
+        padding-left: 0%;
+        padding-right: 0%;
+        flex-direction: column;
+    }
+    .func{
+        height: 150px;
+    }
+}
