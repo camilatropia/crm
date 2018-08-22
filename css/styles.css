@@ -1,6 +1,5 @@
 body{
     background-color: #F8EFF0;
-    font-family: Helvetica Neue, Regular;
 }
 .navbar{
     background-color: #8CAAEB;
@@ -43,6 +42,26 @@ body{
     padding-right: 26%;
     height: 160px;
 }
+
+.social{
+    width: 10%;
+    margin-left: 2vh;
+}
+
+.footer{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+
+
+
+
 
 @media(max-width: 1198px){
     .row{

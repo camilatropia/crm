@@ -65,3 +65,22 @@
     justify-content: flex-end;
     align-content: flex-end;
 }
+
+.navbar.navbar-6{
+    height: 80%;
+    width: 80%;
+}
+
+.navbar.navbar-6 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=fff');
+    position: relative;
+    left: 110px;
+}
+
+.toggle-color-drop{
+    background-color: #8CAAEB;
+}
+
+.toggle-a-color{
+    color: white;
+}
