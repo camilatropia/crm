@@ -1,0 +1,196 @@
+body{
+    background-color: #F8EFF0;
+}
+.navbar{
+    background-color: #8CAAEB;
+}
+
+.img-logomarca{
+    width: 15%;
+}
+.pt01{
+    background-color: #FFFFFF;
+    border: 3px solid #7B98E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px 0px 0px 30px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.pt02{
+    border: 3px solid #7B98E5;
+    background-color: #7B98E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 30px 30px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    flex-shrink: 3;
+}
+.container{
+    width: 80%;
+}
+.linha{
+    height:130px;
+    margin-bottom: 3%;
+}
+.navbar a{
+    color: #F8EFF0;
+}
+.navbar a:hover{
+    color: rgb(93, 112, 197);
+}
+.social{
+    width: 10%;
+    margin-left: 2vh;
+}
+
+.footer{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    margin-top: 55vh;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+.bg-verde{
+    background-color: #25EB15;
+    padding: 40px;
+    border-radius: 100%;
+}
+
+.bg-amarelo{
+    background-color: #FAFA2A;
+    padding: 35px;
+    border-radius: 100%;
+}
+.bg-laranja{
+    background-color: #FFA10A;
+    padding: 30px;
+    border-radius: 100%;
+}
+.bg-rosa{
+    background-color: #ED5151;
+    padding: 26px;
+    border-radius: 100%;
+}
+.bg-vermelho{
+    background-color: #F70E0E;
+    padding: 4px;
+    border-radius: 100%;
+}
+.previsao{
+    color: #7B98E5;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.grafico{
+    padding-left: 33%;
+    padding-right: 33%; 
+    margin-top: 35px;
+}
+.percentual{
+    color: #FFFFFF;
+    font-size: 52px;
+}
+@media(max-width: 1198px){
+
+}
+@media(max-width: 990px){
+
+}
+@media(max-width: 766px){
+    .social{
+        width: 5%;
+        margin-left: 2vh;
+    }
+    .footer{
+        position: absolute;
+    }
+    .linha{
+        flex-wrap: nowrap;
+    }
+    .pt02{
+        font-size: 13px;
+        max-width: 25%;
+    }
+
+}
+
+@media(max-width: 486px){
+    .img-logomarca{
+        width: 30%;
+    }
+    .footer{
+        position: absolute;
+        height: 64px;
+        width: 100%;
+        margin-top: 20vh;
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+    .social{
+        width: 9%;
+        margin-left: 10vh;
+    }
+    .pt02{
+        font-size: 11px;
+        max-width: 25%;
+    }
+    .linha{
+        height: 110px;
+    }
+    .bg-verde{
+        background-color: #25EB15;
+        padding: 18px;
+        border-radius: 100%;
+    }
+    
+    .bg-amarelo{
+        background-color: #FAFA2A;
+        padding: 13px;
+        border-radius: 100%;
+    }
+    .bg-laranja{
+        background-color: #FFA10A;
+        padding: 11px;
+        border-radius: 100%;
+    }
+    .bg-rosa{
+        background-color: #ED5151;
+        padding: 9px;
+        border-radius: 100%;
+    }
+    .bg-vermelho{
+        background-color: #F70E0E;
+        padding: 0px;
+        border-radius: 100%;
+    }
+    .previsao{
+        color: #7B98E5;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+    .grafico{
+        padding-left: 17%;
+
+        padding-right: 18%;
+        
+        margin-top: 11px;
+    }
+    .percentual{
+        color: #FFFFFF;
+        font-size: 27px;
+    }
+}

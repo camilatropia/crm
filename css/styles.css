@@ -58,7 +58,28 @@ body{
     align-content: flex-end;
 }
 
-
+.form-login{
+    max-width: 30%;
+    background-color:#FDFAFA;
+    border: 2px solid #7B98E5;
+    color: #7B98E5;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 64px;
+    height: 296px;
+    padding: 17px;
+}
+.btnSign{
+    background-color: #7B98E5;
+    color: white;
+}
+.btnSign:hover{
+    background-color: rgb(88, 119, 204);
+}
+.btnSign:active{
+    background-color: #C3EBD4;
+}
 
 
 
@@ -103,6 +124,16 @@ body{
     .func{
         height: 150px;
     }
+    .form-login{
+        max-width: 70%;
+    }
+    .social{
+        width: 5%;
+        margin-left: 2vh;
+    }
+    .footer{
+        position: absolute;
+    }
 }
 
 @media(max-width: 486px){
@@ -113,5 +144,29 @@ body{
     }
     .func{
         height: 150px;
+        font-size: 11px;
+    }
+    .form-login{
+        max-width: 70%;
+    }
+    .img-logomarca{
+        width: 30%;
+    }
+    .footer{
+        position: absolute;
+        height: 64px;
+        width: 100%;
+        margin-top: 5vh;
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+    .social{
+        width: 9%;
+        margin-left: 10vh;
+    }
+
+    .form-login{
+        margin-bottom: -40px;
     }
 }
