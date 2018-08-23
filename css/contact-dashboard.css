@@ -41,6 +41,21 @@
     border-bottom-right-radius: 45px !important;
 }
 
+.card-text{
+    position: relative;
+    bottom: 40px;
+}
+
+.phone-icon{
+    width: 30%;
+}
+
+.phone-link{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 .plus-img{
     width: 50%;
 }
@@ -48,7 +63,7 @@
 .profile-img{
     width: 50%;
     position: relative;
-    bottom: 100px;
+    bottom: 65px;
     z-index: 1;
     border-radius: 50%;
 }
@@ -83,4 +98,74 @@
 
 .toggle-a-color{
     color: white;
+}
+
+.modal-box{
+    border-radius: 30px; 
+    border: solid 1px black;
+    width: 343px;
+    height: 599px;
+}
+
+.header-modal{
+    background-color: black;
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+    height: 80px;
+
+}
+
+.modal-title{
+    color:white;
+}
+
+.body-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    border-color: darkgrey;
+}
+
+.footer-modal{
+    background-color: black;
+    border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.hangout-icon{
+    width: 15%;
+    height: 15%;
+}
+
+.hangout-link{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.iphone-home{
+    width: 15%;
+}
+
+.icon-call{
+    width: 10%;
+    height: 10%;
+}
+
+.call{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.modal-img{
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 5vh;
 }
