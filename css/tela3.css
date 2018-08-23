@@ -49,10 +49,10 @@ body{
 }
 
 .footer{
-    position: fixed;
+    position: absolute;
     height: 50px;
     width: 100%;
-    margin-top: 5vh;
+    margin-top: 55vh;
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
@@ -132,7 +132,7 @@ body{
         position: absolute;
         height: 64px;
         width: 100%;
-        margin-top: 5vh;
+        margin-top: 20vh;
         display: flex;
         justify-content: flex-end;
         align-content: flex-end;
@@ -147,5 +147,50 @@ body{
     }
     .linha{
         height: 110px;
+    }
+    .bg-verde{
+        background-color: #25EB15;
+        padding: 18px;
+        border-radius: 100%;
+    }
+    
+    .bg-amarelo{
+        background-color: #FAFA2A;
+        padding: 13px;
+        border-radius: 100%;
+    }
+    .bg-laranja{
+        background-color: #FFA10A;
+        padding: 11px;
+        border-radius: 100%;
+    }
+    .bg-rosa{
+        background-color: #ED5151;
+        padding: 9px;
+        border-radius: 100%;
+    }
+    .bg-vermelho{
+        background-color: #F70E0E;
+        padding: 0px;
+        border-radius: 100%;
+    }
+    .previsao{
+        color: #7B98E5;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+    .grafico{
+        padding-left: 17%;
+
+        padding-right: 18%;
+        
+        margin-top: 11px;
+    }
+    .percentual{
+        color: #FFFFFF;
+        font-size: 27px;
     }
 }
