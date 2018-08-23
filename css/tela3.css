@@ -57,7 +57,49 @@ body{
     justify-content: flex-end;
     align-content: flex-end;
 }
+.bg-verde{
+    background-color: #25EB15;
+    padding: 40px;
+    border-radius: 100%;
+}
 
+.bg-amarelo{
+    background-color: #FAFA2A;
+    padding: 35px;
+    border-radius: 100%;
+}
+.bg-laranja{
+    background-color: #FFA10A;
+    padding: 30px;
+    border-radius: 100%;
+}
+.bg-rosa{
+    background-color: #ED5151;
+    padding: 26px;
+    border-radius: 100%;
+}
+.bg-vermelho{
+    background-color: #F70E0E;
+    padding: 4px;
+    border-radius: 100%;
+}
+.previsao{
+    color: #7B98E5;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.grafico{
+    padding-left: 33%;
+    padding-right: 33%; 
+    margin-top: 35px;
+}
+.percentual{
+    color: #FFFFFF;
+    font-size: 52px;
+}
 @media(max-width: 1198px){
 
 }
