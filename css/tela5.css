@@ -1,12 +1,15 @@
 body{
-    background-color: #F8EFF0;
+    background-color: #FFFFFF;
 }
 .navbar{
     background-color: #8CAAEB;
 }
 
 .img-logomarca{
-    width: 15%;
+    width: 100%;
+}
+.brandzinha{
+    width: 10%;
 }
 .pt01{
     background-color: #FFFFFF;
@@ -34,8 +37,8 @@ body{
     width: 80%;
 }
 .linha1{
-    height:130px;
-    margin-bottom: 4%;
+    height: 160px;
+    margin-bottom: 5%;
 }
 .navbar a{
     color: #F8EFF0;
@@ -52,7 +55,7 @@ body{
     position: absolute;
     height: 50px;
     width: 100%;
-    bottom: -43%;
+    bottom: -70%;
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
@@ -64,6 +67,7 @@ body{
 }
 .dash-branco{
     display: flex;
+    flex-direction: column;
     width: 60%;
     position: absolute;
     padding-left: 0px;
@@ -83,33 +87,41 @@ body{
     padding-right: 0px;
 }
 .bg-azul{
-    background-color: #8CAAEB;
+    border:3px solid #8CAAEB;
 }
 .bg-verde{
-    background-color: #59D08C;
+    border:3px solid #59D08C;
 }
 .bg-branco{
-    background-color: #F7F7F7;
+    background-color: #F2EAEA;
 }
-
+.img-lat{
+    width:30%;
+}
+.img-round{
+    width: 50%;
+    border-radius: 50%;
+}
 .linha-lateral{
     margin-bottom: 2%;
 }
 .info-dash{
     width: 15rem;
+    background-color: #F2EAEA;
     border-radius: 1.25rem!important;
     height: 100%;
     text-align: -moz-center;
-    color: #FFFFFF;
+    color:darkgray;
     font-weight: bold;
     box-shadow: 4px 4px 16px 0px #888888;
 }
 .info-dash-lateral{
     width: 15rem;
+    background-color: #F2EAEA;
     border-radius: 1.25rem!important;
     height: 100%;
     text-align: -moz-center;
-    color: #FFFFFF;
+    color:darkgray;
     font-weight: bold;
     box-shadow: 4px 4px 16px 0px #888888;
 }
@@ -118,7 +130,7 @@ body{
     width: 100%;
     box-shadow: 4px 4px 16px 0px #888888;
     height: 100%;
-    padding: 25%;
+    padding: 2%;
 }
 .info-grafico{
     border-radius: 1.25rem !important;
@@ -128,7 +140,28 @@ body{
     padding: 10%;
     bottom: -124%;
 }
-
+.img-grafico1{
+    width: 90%;
+}
+.img-grafico2{
+    width: 79%;
+}
+.subtitulo{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 30px;
+}
+.titulo{
+    font-size: 16px;
+}
+.item-menu{
+    font-size:35px;
+    font-weight: bold;
+}
+.item-lateral{
+    font-size:16px;
+    font-weight: bold;
+}
 @media(max-width: 1198px){
 
 }
