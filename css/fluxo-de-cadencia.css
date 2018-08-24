@@ -1,0 +1,68 @@
+.navbar{
+    background-color: #8CAAEB;
+}
+
+.img-logomarca{
+    width: 15%;
+}
+
+
+
+.social{
+    width: 10%;
+    margin-left: 2vh;
+}
+
+.footer{
+    height: 50px;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.back{
+    background-color: #8CAAEB;
+    border-radius: 10px;
+}
+
+.img-profile{
+    width: 75%;
+    border-radius: 50%;
+    padding: 2vh 2vh 2vh 2vh;
+}
+
+.img-col{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2vh 2vh 2vh 2vh;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-form{
+    background-color: chocolate;
+    color: white;
+}
+
+.input-form::placeholder{
+    color: white;
+}
+
+.input-form-ok{
+    background-color: chartreuse;
+}
+
+.input-form::placeholder{
+    color: white;
+}
+
