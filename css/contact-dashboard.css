@@ -169,3 +169,20 @@
     border-radius: 50%;
     margin-bottom: 5vh;
 }
+
+.evaluation{
+    background-color: #8CAAEB;
+    color: white;
+
+}
+
+.evaluation-button{
+    background-color: coral;
+    color: white;
+}
+
+.evaluation-footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
