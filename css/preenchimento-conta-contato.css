@@ -13,6 +13,10 @@
 
 }
 
+.icon-profile{
+    width: 15%;
+}
+
 .card{
     border-color: #8CAAEB;
     border-radius: 45px !important;
@@ -20,30 +24,31 @@
 
 }
 
-.card-header{
-    background-color: #8CAAEB;
-    border-color: #8CAAEB; 
-    height: 50px;
-    border-top-left-radius: 40px !important;
-    border-top-right-radius: 40px !important;
-    z-index: 0;
-    
+.card{
+    border-radius: 10px;
+    padding: 1vh 1vh 1vh 1vh;
+    height: 300px;
+    width: 200px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .card-body{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
     flex-direction: column;
-    background-color: #F4F0F0;
-    border-bottom-left-radius: 45px !important;
-    border-bottom-right-radius: 45px !important;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .card-text{
-    position: relative;
-    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #8CAAEB;
 }
 
 .phone-icon{
@@ -62,10 +67,26 @@
 
 .profile-img{
     width: 50%;
-    position: relative;
-    bottom: 65px;
-    z-index: 1;
-    border-radius: 50%;
+    border-radius: 75%;
+}
+
+.profile-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-description{
+    background-color: #8CAAEB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 2vh 2vh 2vh 2vh;
+}
+
+.icon-add{
+    width: 50%;
 }
 
 .social{
@@ -187,9 +208,10 @@
     align-content: center;
 }
 
-.a-add{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+.contato-form{
+    background-color: #8CAAEB;
+    border-radius: 10px;
+    padding: 2vh 2vh 2vh 2vh;
+    color: white;
+    margin-top: 10px;
 }
