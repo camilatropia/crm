@@ -6,67 +6,7 @@
     width: 15%;
 }
 
-.card-col{
-    padding: 10vh 5vh 0vh 5vh;
-    display: flex;
-    justify-content: center;
 
-}
-
-.card{
-    border-color: #8CAAEB;
-    border-radius: 45px !important;
-    width: 300px !important; 
-
-}
-
-.card-header{
-    background-color: #8CAAEB;
-    border-color: #8CAAEB; 
-    height: 50px;
-    border-top-left-radius: 40px !important;
-    border-top-right-radius: 40px !important;
-    z-index: 0;
-    
-}
-
-.card-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    flex-direction: column;
-    background-color: #F4F0F0;
-    border-bottom-left-radius: 45px !important;
-    border-bottom-right-radius: 45px !important;
-}
-
-.card-text{
-    position: relative;
-    bottom: 40px;
-}
-
-.phone-icon{
-    width: 30%;
-}
-
-.phone-link{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-.plus-img{
-    width: 50%;
-}
-
-.profile-img{
-    width: 50%;
-    position: relative;
-    bottom: 65px;
-    z-index: 1;
-    border-radius: 50%;
-}
 
 .social{
     width: 10%;
@@ -107,88 +47,75 @@
     height: 599px;
 }
 
-.header-modal{
-    background-color: black;
-    border-top-left-radius: 30px !important;
-    border-top-right-radius: 30px !important;
-    height: 80px;
-
+.img-icon{
+    width: 50%;
 }
 
-.modal-title{
-    color:white;
+.card{
+    border-radius:10px;
 }
 
-.body-modal{
+.card-green{
+    background-color: #59D08C;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     align-items: center;
-    background-color: darkgrey;
-    border-color: darkgrey;
 }
 
-.footer-modal{
-    background-color: black;
-    border-bottom-left-radius: 30px !important;
-    border-bottom-right-radius: 30px !important;
+.card-blue{
+    background-color: #8CAAEB;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
+    align-items: center;
 }
 
-.hangout-icon{
-    width: 15%;
-    height: 15%;
+.card-head{
+    background-color: #8CAAEB;
+    height: 50px;
 }
 
-.hangout-link{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-top: 10vh;
+.conta-card{
+    width: 250px;
 }
 
-.iphone-home{
-    width: 15%;
+.contato-card{
+    width: 250px;
 }
 
-.icon-call{
-    width: 10%;
-    height: 10%;
-}
-
-.call{
+.cards{
     display: flex;
     justify-content: space-around;
-    align-content: center;
-}
-
-.modal-img{
-    width: 50%;
-    border-radius: 50%;
+    margin-top: 5vh;
     margin-bottom: 5vh;
 }
 
-.evaluation{
+.card-footer{
     background-color: #8CAAEB;
-    color: white;
-
+    height: 50px;
 }
 
-.evaluation-button{
-    background-color: coral;
-    color: white;
+.profile-img{
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
 }
 
-.evaluation-footer{
+.card-body{
     display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.a-add{
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
