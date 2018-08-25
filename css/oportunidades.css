@@ -1,0 +1,122 @@
+.navbar{
+    background-color: #8CAAEB;
+}
+
+.img-logomarca{
+    width: 15%;
+}
+
+
+
+.social{
+    width: 10%;
+    margin-left: 2vh;
+}
+
+.footer{
+    height: 50px;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.navbar.navbar-6{
+    height: 80%;
+    width: 80%;
+}
+
+.navbar.navbar-6 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=fff');
+    position: relative;
+    left: 110px;
+}
+
+.toggle-color-drop{
+    background-color: #8CAAEB;
+}
+
+.toggle-a-color{
+    color: white;
+}
+
+.modal-box{
+    border-radius: 30px; 
+    border: solid 1px black;
+    width: 343px;
+    height: 599px;
+}
+
+.img-icon{
+    width: 50%;
+}
+
+.card{
+    border-radius:10px;
+}
+
+.card-green{
+    background-color: #59D08C;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.card-blue{
+    background-color: #8CAAEB;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.card-head{
+    background-color: #8CAAEB;
+    height: 50px;
+}
+
+.conta-card{
+    width: 250px;
+}
+
+.contato-card{
+    width: 250px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.card-footer{
+    background-color: #8CAAEB;
+    height: 50px;
+}
+
+.profile-img{
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}

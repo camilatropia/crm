@@ -44,7 +44,9 @@
                           <div class="card rounded">
                             <div class="card-header"></div>
                             <div class="card-body">
-                              <img class="plus-img" src="img/icons/plus.png">
+                              <a href="preenchimento-conta-contato.html" class="a-add">
+                                <img class="plus-img" src="img/icons/plus.png">
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -436,20 +438,38 @@
         <div class="modal-dialog">
           <div class="modal-content">
       
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Modal Heading</h4>
-              <button type="button" class="close" >&times;</button>
-            </div>
-      
             <!-- Modal body -->
-            <div class="modal-body">
-              Modal body..
+            <div class="modal-body evaluation">
+              <p>Avalie sua ligação!</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Boas chances
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Em processo
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Comprometido
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Conquistado
+                </label>
+              </div>
             </div>
       
             <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" data-dismiss="modal" class="btn btn-danger" >Close</button>
+            <div class="modal-footer evaluation-footer">
+              <button type="button" data-dismiss="modal" class="btn evaluation-button" >Avaliado!</button>
             </div>
       
           </div>
